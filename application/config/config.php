@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+//$config['base_url'] = 'http://web.utags.edu.mx/becas_plus';
 $config['base_url'] = '';
 
 /*
@@ -76,7 +77,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= 'spanish';
 
 /*
 |--------------------------------------------------------------------------
@@ -89,7 +90,7 @@ $config['language']	= 'english';
 | See http://php.net/htmlspecialchars for a list of supported charsets.
 |
 */
-$config['charset'] = 'UTF-8';
+$config['charset'] = 'ISO-8859-1';
 
 /*
 |--------------------------------------------------------------------------
